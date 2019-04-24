@@ -1,4 +1,2 @@
-  <entry name="{{ source_zone }}">
-  </entry>
-  <entry name="{{ destination_zone }}">
-  </entry>
+<entry name="{{ source_zone }}"/>
+<entry name="{{ destination_zone }}"/>
