@@ -1,2 +1,6 @@
-<entry name="{{ source_zone "/>
-<entry name="{{ destination_zone "/>
+  <entry name="{{ source_zone }}">
+    <enable-user-identification>yes</enable-user-identification>
+  </entry>
+  <entry name="{{ destination_zone }}">
+    <enable-user-identification>yes</enable-user-identification>
+  </entry>
