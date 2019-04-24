@@ -1,0 +1,59 @@
+# skillet preamble information used by panhandler
+# ---------------------------------------------------------------------
+# unique snippet name
+name: Limit_Access_GSuite
+# label used for menu selection
+label: Limit_Access_GSuite
+description: Limits access to a specific Google G Suite enterprise instance
+
+# type of device configuration
+# common types are panorama, panos, and template
+# https://github.com/PaloAltoNetworks/panhandler/blob/develop/docs/metadata_configuration.rst
+type: panos
+# preload static or default-based templates
+extends:
+
+# grouping of like snippets for dynamic menu creation in panhandler
+labels:
+  collection:
+    - GSuite_Collection
+
+# ---------------------------------------------------------------------
+# end of preamble section
+
+# variables section
+# ---------------------------------------------------------------------
+# variables used in the configuration templates
+# type_hint defines the form field used by panhandler
+# type_hints can be text, ip_address, or dropdown
+variables:
+  - name: enterprise_name
+    description: Name of the Enterprise's Domain
+    default: Example Domain
+    type_hint: text
+  - name: domain_name
+    description: Domain Name
+    default: example.com
+    type_hint: text
+  - name: enable_logging
+    description: Choose whether you want to enable logging or not
+    default: no
+    type_hint: dropdown
+    dd_list:
+      - key: No
+        value: no
+      - key: Yes
+        value: yes
+# ---------------------------------------------------------------------
+# end of variables section
+
+# snippets section
+# ---------------------------------------------------------------------
+# snippets used for api configuration including xpath and element as file name
+# files will load in the order listed
+snippets:
+  - name: url_profile
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/url-filtering
+    file: url_profile.xml
+# ---------------------------------------------------------------------
+# end of snippets section
