@@ -1,0 +1,34 @@
+  <entry name="G Suite Login">
+    <credential-enforcement>
+      <mode>
+        <disabled/>
+      </mode>
+      <log-severity>medium</log-severity>
+      <allow>
+        <member>default</member>
+      </allow>
+    </credential-enforcement>
+    <http-header-insertion>
+      <entry name="{{ enterprise_name }}">
+        <type>
+          <entry name="Google Apps Access Control">
+            <domains>
+              <member>*.google.com</member>
+              <member>gmail.com</member>
+            </domains>
+            <headers>
+              <entry name="header-0">
+                <header>X-GooGApps-Allowed-Domains</header>
+                <value>{{ domain_name }}</value>
+                <log>{{ enable_logging }}</log>
+              </entry>
+            </headers>
+          </entry>
+        </type>
+      </entry>
+    </http-header-insertion>
+    <action>block</action>
+    <allow>
+      <member>default</member>
+    </allow>
+  </entry>
