@@ -40,9 +40,9 @@ variables:
     default: no
     type_hint: dropdown
     dd_list:
-      - key: No
+      - key: no
         value: no
-      - key: Yes
+      - key: yes
         value: yes
 # ---------------------------------------------------------------------
 # end of variables section
