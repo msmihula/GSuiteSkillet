@@ -1,0 +1,153 @@
+  <entry name="G Suite Base">
+    <to>
+      <member>{{ destination_zone }}</member>
+    </to>
+    <from>
+      <member>{{ source_zone }}</member>
+    </from>
+    <source>
+      <member>any</member>
+    </source>
+    <destination>
+      <member>any</member>
+    </destination>
+    <source-user>
+      <member>any</member>
+    </source-user>
+    <category>
+      <member>any</member>
+    </category>
+    <application>
+      <member>google-base</member>
+    </application>
+    <service>
+      <member>application-default</member>
+    </service>
+    <hip-profiles>
+      <member>any</member>
+    </hip-profiles>
+    <action>allow</action>
+  </entry>
+  <entry name="Gmail">
+    <to>
+      <member>{{ destination_zone }}</member>
+    </to>
+    <from>
+      <member>{{ source_zone }}</member>
+    </from>
+    <source>
+      <member>any</member>
+    </source>
+    <destination>
+      <member>any</member>
+    </destination>
+    <source-user>
+      <member>any</member>
+    </source-user>
+    <category>
+      <member>any</member>
+    </category>
+    <application>
+      <member>gmail</member>
+    </application>
+    <service>
+      <member>application-default</member>
+    </service>
+    <hip-profiles>
+      <member>any</member>
+    </hip-profiles>
+    <action>allow</action>
+  </entry>
+  <entry name="Google Drive and Docs">
+    <to>
+      <member>{{ destination_zone }}</member>
+    </to>
+    <from>
+      <member>{{ source_zone }}</member>
+    </from>
+    <source>
+      <member>any</member>
+    </source>
+    <destination>
+      <member>any</member>
+    </destination>
+    <source-user>
+      <member>any</member>
+    </source-user>
+    <category>
+      <member>any</member>
+    </category>
+    <application>
+      <member>google-docs</member>
+      <member>google-drive-web</member>
+    </application>
+    <service>
+      <member>application-default</member>
+    </service>
+    <hip-profiles>
+      <member>any</member>
+    </hip-profiles>
+    <action>allow</action>
+  </entry>
+  <entry name="Google Calendar">
+    <to>
+      <member>{{ destination_zone }}</member>
+    </to>
+    <from>
+      <member>{{ source_zone }}</member>
+    </from>
+    <source>
+      <member>any</member>
+    </source>
+    <destination>
+      <member>any</member>
+    </destination>
+    <source-user>
+      <member>any</member>
+    </source-user>
+    <category>
+      <member>any</member>
+    </category>
+    <application>
+      <member>google-calendar</member>
+      <member>google-keep</member>
+      <member>google-maps</member>
+    </application>
+    <service>
+      <member>application-default</member>
+    </service>
+    <hip-profiles>
+      <member>any</member>
+    </hip-profiles>
+    <action>allow</action>
+  </entry>
+  <entry name="Google Hangouts">
+    <to>
+      <member>{{ destination_zone }}</member>
+    </to>
+    <from>
+      <member>{{ source_zone }}</member>
+    </from>
+    <source>
+      <member>any</member>
+    </source>
+    <destination>
+      <member>any</member>
+    </destination>
+    <source-user>
+      <member>any</member>
+    </source-user>
+    <category>
+      <member>any</member>
+    </category>
+    <application>
+      <member>google-hangouts</member>
+    </application>
+    <service>
+      <member>application-default</member>
+    </service>
+    <hip-profiles>
+      <member>any</member>
+    </hip-profiles>
+    <action>allow</action>
+  </entry>
