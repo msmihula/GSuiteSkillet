@@ -5,7 +5,7 @@
       </mode>
       <log-severity>medium</log-severity>
       <allow>
-        <member>default</member>
+        <member>credential-phish-test</member>
       </allow>
     </credential-enforcement>
     <http-header-insertion>
@@ -29,6 +29,6 @@
     </http-header-insertion>
     <action>block</action>
     <allow>
-      <member>default</member>
+      <member>credential-phish-test</member>
     </allow>
   </entry>
