@@ -4,9 +4,6 @@
         <disabled/>
       </mode>
       <log-severity>medium</log-severity>
-      <allow>
-        <member>credential-phish-test</member>
-      </allow>
     </credential-enforcement>
     <http-header-insertion>
       <entry name="{{ enterprise_name }}">
@@ -28,7 +25,4 @@
       </entry>
     </http-header-insertion>
     <action>block</action>
-    <allow>
-      <member>credential-phish-test</member>
-    </allow>
   </entry>
