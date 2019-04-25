@@ -1,0 +1,54 @@
+<entry name="phishing inspection">
+  <profile-setting>
+    <profiles>
+      <url-filtering>
+        <member>credential-phish-test</member>
+      </url-filtering>
+    </profiles>
+  </profile-setting>
+</entry>
+<entry name="G Suite Base">
+  <profile-setting>
+    <profiles>
+      <url-filtering>
+        <member>G Suite Login</member>
+      </url-filtering>
+    </profiles>
+  </profile-setting>
+</entry>
+<entry name="Gmail">
+  <profile-setting>
+    <profiles>
+      <url-filtering>
+        <member>G Suite Login</member>
+      </url-filtering>
+    </profiles>
+  </profile-setting>
+</entry>
+<entry name="Google Drive and Docs">
+  <profile-setting>
+    <profiles>
+      <url-filtering>
+        <member>G Suite Login</member>
+      </url-filtering>
+    </profiles>
+  </profile-setting>
+</entry>
+<entry name="Google Calendar">
+  <profile-setting>
+    <profiles>
+      <url-filtering>
+        <member>G Suite Login</member>
+      </url-filtering>
+    </profiles>
+  </profile-setting>
+</entry>
+<entry name="Google Hangouts">
+  <profile-setting>
+    <profiles>
+      <url-filtering>
+        <member>G Suite Login</member>
+      </url-filtering>
+    </profiles>
+  </profile-setting>
+</entry>
