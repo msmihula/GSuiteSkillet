@@ -38,11 +38,11 @@ variables:
   - name: enable_logging
     description: Choose whether you want to enable logging or not
     default: no
-    type_hint: checkbox
-    cbx_list:
-      - key: no
-        value: no
-      - key: yes
+    type_hint: dropdown
+    dd_list:
+      - key: No
+        value: 'no'
+      - key: 'yes'
         value: yes
 # ---------------------------------------------------------------------
 # end of variables section
