@@ -40,10 +40,10 @@ variables:
     default: no
     type_hint: dropdown
     dd_list:
-      - key: No
+      - key: !!str No
         value: 'no'
-      - key: 'yes'
-        value: yes
+      - key: 'Yes'
+        value: !!str yes
 # ---------------------------------------------------------------------
 # end of variables section
 
