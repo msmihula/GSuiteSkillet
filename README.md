@@ -6,3 +6,4 @@ Skillet for securing Google G Suite with the Palo Alto Networks Security Operati
 - The PAN-OS version tested with this Skillet is 8.1
 - Firewalls must be operational. This Skillet only covers the policy specific to G Suite and not the
 deployment of the firewalls.
+- For optimal results SSL Decryption should be configured.
