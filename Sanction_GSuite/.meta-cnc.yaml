@@ -3,8 +3,8 @@
 # unique snippet name
 name: Sanction_GSuite
 # label used for menu selection
-label: Sanction_GSuite
-description: Creates security rules to inspect Google G Suite applications
+label: Step 1.1 - Sanction Google G Suite
+description: This procedure allows G Suite in the security policy.
 
 # type of device configuration
 # common types are panorama, panos, and template
