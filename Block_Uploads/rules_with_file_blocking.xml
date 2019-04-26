@@ -1,5 +1,1 @@
-<profiles>
-  <file-blocking>
-    <member>{{ blocking_profile_name }}</member>
-  </file-blocking>
-</profiles>
+<member>{{ blocking_profile_name }}</member>
