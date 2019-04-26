@@ -1,0 +1,20 @@
+<entry name="Gmail">
+  <profile-setting>
+    <profiles>
+      <url-filtering>
+      <file-blocking>
+        <member>Block Uploads</member>
+      </file-blocking>
+    </profiles>
+  </profile-setting>
+</entry>
+<entry name="Google Drive and Docs">
+  <profile-setting>
+    <profiles>
+      <url-filtering>
+      <file-blocking>
+        <member>Block Uploads</member>
+      </file-blocking>
+    </profiles>
+  </profile-setting>
+</entry>
