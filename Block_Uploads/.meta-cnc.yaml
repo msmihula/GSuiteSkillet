@@ -43,7 +43,7 @@ snippets:
     xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/profiles/file-blocking
     file: block_file_upload.xml
   - name: add_profile_to_rules
-    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security/rules/entry[@name='Google Drive and Docs']/profile-setting/profiles/file-blocking
+    xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/security/rules/entry[@name='Google Drive and Docs' or @name='Gmail']/profile-setting/profiles/file-blocking
     file: rules_with_file_blocking.xml
 # ---------------------------------------------------------------------
 # end of snippets section
