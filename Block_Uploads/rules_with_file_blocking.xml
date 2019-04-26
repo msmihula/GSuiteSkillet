@@ -1,18 +1,3 @@
-<entry name="Gmail">
-  <profile-setting>
-    <profiles>
-      <file-blocking>
-        <member>{{ blocking_profile_name }}</member>
-      </file-blocking>
-    </profiles>
-  </profile-setting>
-</entry>
-<entry name="Google Drive and Docs">
-  <profile-setting>
-    <profiles>
-      <file-blocking>
-        <member>{{ blocking_profile_name }}</member>
-      </file-blocking>
-    </profiles>
-  </profile-setting>
-</entry>
+  <file-blocking>
+    <member>{{ blocking_profile_name }}</member>
+  </file-blocking>
