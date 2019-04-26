@@ -1,7 +1,6 @@
 <entry name="Gmail">
   <profile-setting>
     <profiles>
-      <url-filtering>
       <file-blocking>
         <member>Block Uploads</member>
       </file-blocking>
@@ -11,7 +10,6 @@
 <entry name="Google Drive and Docs">
   <profile-setting>
     <profiles>
-      <url-filtering>
       <file-blocking>
         <member>Block Uploads</member>
       </file-blocking>
