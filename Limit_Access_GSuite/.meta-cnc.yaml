@@ -3,8 +3,8 @@
 # unique snippet name
 name: Limit_Access_GSuite
 # label used for menu selection
-label: Limit_Access_GSuite
-description: Limits access to a specific Google G Suite enterprise instance
+label: Step 1.2 - Limit access to a specific Google G Suite enterprise instance
+description: To limit login access to specific G Suite enterprise instances and block access to all other G Suite enterprise and consumer accounts, configure HTTP header insertion.
 
 # type of device configuration
 # common types are panorama, panos, and template
