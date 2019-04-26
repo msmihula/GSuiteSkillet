@@ -2,7 +2,7 @@
   <profile-setting>
     <profiles>
       <file-blocking>
-        <member>Block Uploads</member>
+        <member>{{ blocking_profile_name }}</member>
       </file-blocking>
     </profiles>
   </profile-setting>
@@ -11,7 +11,7 @@
   <profile-setting>
     <profiles>
       <file-blocking>
-        <member>Block Uploads</member>
+        <member>{{ blocking_profile_name }}</member>
       </file-blocking>
     </profiles>
   </profile-setting>
