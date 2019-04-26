@@ -1,0 +1,14 @@
+<entry name="{{ blocking_profile_name }}">
+  <rules>
+    <entry name="Uploads">
+      <application>
+        <member>any</member>
+      </application>
+      <file-type>
+        <member>any</member>
+      </file-type>
+      <direction>upload</direction>
+      <action>block</action>
+    </entry>
+  </rules>
+</entry>
